@@ -1,0 +1,54 @@
+{
+  "required": [
+    "persona",
+    "summary",
+    "tool_requests",
+    "evidence",
+    "risk_score",
+    "next_action"
+  ],
+  "tool_request": {
+    "required": [
+      "tool",
+      "reason",
+      "args",
+      "risk",
+      "requires_write"
+    ]
+  },
+  "tools": {
+    "read_file": {
+      "write": false
+    },
+    "list_files": {
+      "write": false
+    },
+    "grep_search": {
+      "write": false
+    },
+    "git_snapshot": {
+      "write": false
+    },
+    "run_v8_build": {
+      "write": false
+    },
+    "run_v8_test": {
+      "write": false
+    },
+    "propose_patch": {
+      "write": false
+    },
+    "atomic_write": {
+      "write": true
+    },
+    "rollback": {
+      "write": true
+    },
+    "failure_graph": {
+      "write": false
+    },
+    "log_evidence": {
+      "write": false
+    }
+  }
+}

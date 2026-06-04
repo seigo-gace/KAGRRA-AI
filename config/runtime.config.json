@@ -1,0 +1,20 @@
+{
+  "runtime": {
+    "name": "KAGRRA",
+    "version": "1.0.0",
+    "mode": "gemini_api_claude_like_runtime",
+    "workspace": "V8",
+    "evidence_required": true,
+    "rollback_required_for_write": true,
+    "mutation_authority": "HAIKU_ONLY"
+  },
+  "models": {
+    "SONNET": "gemini-2.5-flash",
+    "OPUS": "gemini-2.5-pro",
+    "MYTHOS": "gemini-2.5-flash",
+    "HAIKU": "gemini-2.5-flash-lite"
+  },
+  "mythos": {
+    "parallel_lanes": 16
+  }
+}

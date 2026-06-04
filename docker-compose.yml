@@ -1,0 +1,13 @@
+services:
+  kagrra:
+    build:
+      context: .
+      dockerfile: Containerfile
+    env_file:
+      - .env
+    volumes:
+      - ./workspaces/v8:/app/workspaces/v8
+      - ./.kagrra:/app/.kagrra
+    ports:
+      - "8787:8787"
+    command: ["npm", "run", "dashboard"]
