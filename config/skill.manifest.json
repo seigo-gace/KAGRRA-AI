@@ -1,0 +1,53 @@
+{
+  "version": "3.0.0",
+  "principle": {
+    "persona_is_identity": true,
+    "skill_is_capability": true,
+    "specialized_skill_required": true
+  },
+  "persona_skill_binding": {
+    "SONNET": {
+      "specialization": "technical_documentation",
+      "skills": [
+        "intent_reader",
+        "context_aligner",
+        "task_decomposer",
+        "document_composer",
+        "evidence_summarizer",
+        "output_normalizer"
+      ]
+    },
+    "OPUS": {
+      "specialization": "deep_research_and_search",
+      "skills": [
+        "deep_research_engine",
+        "world_model_engine",
+        "future_simulator",
+        "technical_debt_analyzer",
+        "dependency_topologist"
+      ]
+    },
+    "MYTHOS": {
+      "specialization": "architecture_visualization_and_failure_mapping",
+      "skills": [
+        "mythos_parallel_explorer",
+        "runtime_tracer",
+        "log_mining_engine",
+        "failure_graph_mapper",
+        "security_probe",
+        "regression_mapper"
+      ]
+    },
+    "HAIKU": {
+      "specialization": "atomic_coding_and_git_safe_execution",
+      "skills": [
+        "git_snapshot",
+        "patch_planner",
+        "atomic_writer",
+        "rollback_engine",
+        "v8_style_checker",
+        "execution_logger"
+      ]
+    }
+  }
+}

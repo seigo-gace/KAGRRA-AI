@@ -1,0 +1,11 @@
+services:
+  kagura-api:
+    build: .
+    container_name: kagura-api
+    env_file:
+      - .env
+    ports:
+      - "${PORT:-8787}:8787"
+    volumes:
+      - ./data/evidence:/app/data/evidence
+    restart: unless-stopped

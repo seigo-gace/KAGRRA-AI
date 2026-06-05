@@ -1,31 +1,21 @@
 {
   "name": "kagrra-complete-dev-package",
-  "version": "1.0.0",
-  "description": "KAGRRA complete Gemini API runtime package for V8 workspace",
+  "version": "3.0.0",
+  "description": "KAGRRA complete verified Gemini API runtime package for V8 workspace.",
   "type": "module",
-  "main": "dist/src/cli.js",
+  "main": "src/cli.js",
   "bin": {
-    "kagrra": "dist/src/cli.js"
+    "kagrra": "src/cli.js"
   },
   "scripts": {
-    "build": "tsc",
-    "dev": "tsx src/cli.ts",
-    "start": "node dist/src/cli.js",
-    "doctor": "tsx src/cli.ts doctor",
-    "dashboard": "tsx src/cli.ts dashboard",
-    "test": "tsx tests/run-tests.ts",
-    "lint": "tsc --noEmit"
-  },
-  "dependencies": {
-    "commander": "^12.1.0",
-    "express": "^4.19.2",
-    "zod": "^3.23.8"
-  },
-  "devDependencies": {
-    "@types/express": "^4.17.21",
-    "@types/node": "^20.14.11",
-    "tsx": "^4.16.2",
-    "typescript": "^5.5.4"
+    "doctor": "node src/cli.js doctor",
+    "route": "node src/cli.js route",
+    "run": "node src/cli.js run",
+    "dashboard": "node src/cli.js dashboard",
+    "evidence": "node src/cli.js evidence",
+    "test": "node tests/run-tests.js",
+    "audit": "node tests/audit-package.js",
+    "verify": "npm test && npm run audit"
   },
   "engines": {
     "node": ">=20.0.0"

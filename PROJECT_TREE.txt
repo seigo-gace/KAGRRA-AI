@@ -1,0 +1,145 @@
+﻿C:.
+│   .env.example
+│   Containerfile
+│   docker-compose.yml
+│   FILE_TREE.docx
+│   package.json
+│   PACK_INDEX.json
+│   PROJECT_TREE.txt
+│   README.md
+│   README.md.docx
+│   tsconfig.json
+│
+├───.github
+│   └───workflows
+│           ci.yml
+│
+├───.kagrra
+│   ├───logs
+│   │       evidence_ledger.jsonl
+│   │
+│   └───state
+│           runtime_state.json
+│
+├───config
+│       runtime.config.json
+│       security.policy.json
+│       tool.schema.json
+│
+├───docs
+│   ├───architecture
+│   │       RUNTIME_ARCHITECTURE.md
+│   │
+│   ├───claude-data
+│   │       CLAUDE_DATA_COMPATIBILITY.md
+│   │
+│   └───roadmap
+│           README.md
+│           phase-0-foundation.md
+│           phase-1-kagrra-lite.md
+│           phase-2-knowledge.md
+│           phase-3-api.md
+│           phase-4-v8-workspace.md
+│           phase-5-aip.md
+│           phase-6-runtime-foundation.md
+│           phase-7-core.md
+│
+├───KAGURA_API_SERVER
+│   │   .dockerignore
+│   │   .env.example
+│   │   .gitignore
+│   │   DEPLOYMENT.md
+│   │   docker-compose.yml
+│   │   Dockerfile
+│   │   FILE_TREE.md
+│   │   package.json
+│   │   README.md
+│   │   tsconfig.json
+│   │
+│   ├───data
+│   │   └───evidence
+│   │
+│   └───src
+│       │   app.ts
+│       │   config.ts
+│       │   index.ts
+│       │   types.ts
+│       │   validation.ts
+│       │
+│       ├───agents
+│       ├───clients
+│       ├───routes
+│       ├───services
+│       └───utils
+│
+├───prompts
+│   │   system.md.docx
+│   │
+│   └───personas
+│           haiku.md.docx
+│           mythos.md.docx
+│           opus.md.docx
+│           sonnet.md.docx
+│
+├───sandbox
+│   └───podman
+│           README.md.docx
+│
+├───scripts
+│       bootstrap.sh
+│       run-dry.sh
+│
+├───src
+│   │   cli.ts
+│   │   runtimeContext.ts
+│   │   types.ts
+│   │
+│   ├───adapter
+│   │       PromptBuilder.ts
+│   │       ResponseParser.ts
+│   │
+│   ├───api
+│   │       GeminiClient.ts
+│   │
+│   ├───core
+│   │       KagrraRuntime.ts
+│   │       Router.ts
+│   │
+│   ├───dashboard
+│   │       server.ts
+│   │
+│   ├───evidence
+│   │       EvidenceLedger.ts
+│   │
+│   ├───parallel
+│   │       MythosParallel.ts
+│   │
+│   ├───recovery
+│   │       RecoveryEngine.ts
+│   │
+│   ├───security
+│   │       SecurityPolicy.ts
+│   │
+│   ├───state
+│   │       StateMachine.ts
+│   │
+│   ├───tools
+│   │       ToolRuntime.ts
+│   │
+│   ├───utils
+│   │       fs.ts
+│   │
+│   ├───v8
+│   │       V8Adapter.ts
+│   │
+│   └───workspace
+│           ShadowWorkspace.ts
+│
+├───tests
+│       run-tests.ts
+│
+├───v8
+│
+└───workspaces
+    └───v8
+            .gitkeep

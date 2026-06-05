@@ -1,12 +1,14 @@
 {
   "runtime": {
     "name": "KAGRRA",
-    "version": "1.0.0",
+    "version": "3.0.0",
     "mode": "gemini_api_claude_like_runtime",
     "workspace": "V8",
+    "mutation_authority": "HAIKU_ONLY",
     "evidence_required": true,
-    "rollback_required_for_write": true,
-    "mutation_authority": "HAIKU_ONLY"
+    "rollback_required": true,
+    "specialized_skills_required": true,
+    "no_shadow_logic": true
   },
   "models": {
     "SONNET": "gemini-2.5-flash",
@@ -15,6 +17,13 @@
     "HAIKU": "gemini-2.5-flash-lite"
   },
   "mythos": {
-    "parallel_lanes": 16
-  }
+    "lanes": 16
+  },
+  "entrypoints": [
+    "doctor",
+    "route",
+    "run",
+    "evidence",
+    "dashboard"
+  ]
 }

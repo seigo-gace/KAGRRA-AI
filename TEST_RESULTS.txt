@@ -1,0 +1,11 @@
+TEST COMMAND: node tests/run-tests.js
+EXIT CODE: 0
+
+STDOUT:
+KAGRRA COMPLETE DEV PACKAGE v3 VERIFIED tests passed.
+
+AUDIT COMMAND: node tests/audit-package.js
+EXIT CODE: 0
+
+STDOUT:
+KAGRRA package audit passed.
