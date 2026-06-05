@@ -23,6 +23,7 @@ It should stay small enough to move quickly, but structured enough to grow into 
 - keep evidence visible
 - keep workspace access bounded
 - keep future core integration possible
+- keep logging and KB concerns out of the API layer unless explicitly exposed
 
 ## Runtime shape
 
@@ -62,6 +63,7 @@ docker compose up --build -d
 
 - `GET /health`
 - `GET /v1/manifest`
+- `GET /v1/kagura/evidence`
 - `POST /v1/kagura/route`
 - `POST /v1/kagura/run`
 - `POST /v1/kagura/research`
@@ -97,3 +99,5 @@ The phase roadmap lives in `docs/roadmap/`.
 
 `HOMURA_SEARCH_PROVIDER=google_search` uses Gemini built-in Google Search grounding.
 Set `HOMURA_SEARCH_PROVIDER=external_http` with `GENIE_API_URL` only when you have a separate Genie-compatible search API.
+
+Telegram log server and KB should be treated as separate roadmap concerns, not as part of the core route contract.

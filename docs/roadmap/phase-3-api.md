@@ -6,6 +6,9 @@ Reduce dependence on prompt-only control by exposing stable APIs.
 
 ## Focus
 
+- `/health`
+- `/manifest`
+- `/evidence`
 - `/chat`
 - `/memory`
 - `/knowledge`
@@ -19,4 +22,3 @@ Reduce dependence on prompt-only control by exposing stable APIs.
 ## Exit condition
 
 External systems can call KAGURA through a stable interface.
-

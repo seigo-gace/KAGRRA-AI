@@ -7,9 +7,11 @@ KAGURA は、Gemini Flash を身体として使いながら、ClaudeData・Skill
 ## まず読むもの
 
 1. `DEVELOPMENT_GUIDELINE_AND_RULEBOOK.md`
-2. この README
-3. `docs/architecture/RUNTIME_ARCHITECTURE.md`
-4. `docs/claude-data/CLAUDE_DATA_COMPATIBILITY.md`
+2. `README_FIRST.txt`
+3. この README
+4. `docs/architecture/RUNTIME_ARCHITECTURE.md`
+5. `docs/claude-data/CLAUDE_DATA_COMPATIBILITY.md`
+6. `docs/roadmap/README.md`
 
 この順番で読むと、開発思想・現在地・将来像がぶれにくくなります。
 
@@ -190,6 +192,9 @@ src/
 
 API の核:
 
+- `/health`
+- `/manifest`
+- `/evidence`
 - `/chat`
 - `/memory`
 - `/knowledge`

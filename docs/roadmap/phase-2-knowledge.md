@@ -12,6 +12,8 @@ Turn conversations and execution history into reusable assets.
 - architecture notes
 - constraints
 - risks
+- Telegram log server
+- KB structure
 
 ## Output
 
@@ -21,3 +23,9 @@ Turn conversations and execution history into reusable assets.
 
 Past work can be searched, reviewed, and reused instead of being forgotten.
 
+## Notes
+
+- Telegram log server is a transport and capture layer.
+- KB is a knowledge and retrieval layer.
+- They should be designed separately even if they share some data.
+- Logs preserve events; KB preserves reusable meaning.

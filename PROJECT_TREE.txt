@@ -7,6 +7,7 @@
 │   PACK_INDEX.json
 │   PROJECT_TREE.txt
 │   README.md
+│   README_FIRST.txt
 │   README.md.docx
 │   tsconfig.json
 │
