@@ -26,6 +26,19 @@ KAGRRA does not copy Claude. It recreates the runtime discipline:
 7. Return to an orchestrator after specialized work.
 8. Keep execution scoped and auditable.
 
+## Conflict rule
+
+When live data, runtime pressure, or local optimization conflicts with ClaudeData compatibility, ClaudeData wins by default.
+
+The reason is operational continuity:
+
+- keep the workflow explainable
+- keep the execution reversible
+- keep the runtime disciplined
+- avoid short-term gains that damage the proven operating model
+
+If a divergence is necessary, it must be labeled, justified, and approved before it becomes the new default.
+
 ## KAGRRA Mapping
 
 - Claude-like project context → SONNET context alignment

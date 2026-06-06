@@ -18,6 +18,13 @@ The principles below do not.
 - Separate facts from inference.
 - Mark any guess explicitly as `【推測】` or `【推論】`.
 
+### 1.1 ClaudeData precedence on conflict
+
+- When operational data, live metrics, or local implementation pressure conflicts with ClaudeData principles, treat ClaudeData as the higher-level baseline.
+- If a change creates measurable negative impact on proven workflow, preserve the ClaudeData-aligned path unless there is explicit approval to diverge.
+- Data should inform the implementation, but it must not silently override the ClaudeData operating model.
+- If evidence and ClaudeData appear to conflict, document the conflict first, then choose the path that keeps the system more stable, reusable, and explainable.
+
 ### 2. Responsibility separation
 
 - Keep execution, transport, staging, knowledge, and audit concerns separate.
@@ -62,4 +69,3 @@ The principles below do not.
 These principles apply whether the project is called KAGURA, TGS, KB, or something else.
 The brand name can change.
 The operational philosophy does not.
-
