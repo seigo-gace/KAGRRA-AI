@@ -7,11 +7,13 @@ KAGURA は、Gemini Flash を身体として使いながら、ClaudeData・Skill
 ## まず読むもの
 
 1. `DEVELOPMENT_GUIDELINE_AND_RULEBOOK.md`
-2. `README_FIRST.txt`
-3. この README
-4. `docs/architecture/RUNTIME_ARCHITECTURE.md`
-5. `docs/claude-data/CLAUDE_DATA_COMPATIBILITY.md`
-6. `docs/roadmap/README.md`
+2. `docs/operations/kagrra-charter.md`
+3. `README_FIRST.txt`
+4. この README
+5. `docs/architecture/RUNTIME_ARCHITECTURE.md`
+6. `docs/claude-data/CLAUDE_DATA_COMPATIBILITY.md`
+7. `docs/operations/README.md`
+8. `docs/roadmap/README.md`
 
 この順番で読むと、開発思想・現在地・将来像がぶれにくくなります。
 
@@ -271,6 +273,7 @@ npm run audit
 ```
 
 Node.js 20 以上を想定しています。
+このリポジトリの root runtime は Node.js 標準モジュール中心なので、追加の npm install を前提にしません。
 
 ## 開発時コマンド
 

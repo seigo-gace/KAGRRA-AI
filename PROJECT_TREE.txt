@@ -34,16 +34,22 @@
 │   ├───claude-data
 │   │       CLAUDE_DATA_COMPATIBILITY.md
 │   │
-│   └───roadmap
+│   ├───roadmap
+│   │       README.md
+│   │       phase-0-foundation.md
+│   │       phase-1-kagrra-lite.md
+│   │       phase-2-knowledge.md
+│   │       phase-3-api.md
+│   │       phase-4-v8-workspace.md
+│   │       phase-5-aip.md
+│   │       phase-6-runtime-foundation.md
+│   │       phase-7-core.md
+│   │
+│   └───operations
 │           README.md
-│           phase-0-foundation.md
-│           phase-1-kagrra-lite.md
-│           phase-2-knowledge.md
-│           phase-3-api.md
-│           phase-4-v8-workspace.md
-│           phase-5-aip.md
-│           phase-6-runtime-foundation.md
-│           phase-7-core.md
+│           kagrra-charter.md
+│           operating-principles.md
+│           transport-and-storage.md
 │
 ├───KAGURA_API_SERVER
 │   │   .dockerignore

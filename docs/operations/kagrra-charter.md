@@ -1,0 +1,65 @@
+# KAGURA Common Charter
+
+## Purpose
+
+This charter defines the principles that do not change across KAGURA, TGS, KB, and related runtime layers.
+
+Implementation details may change.
+Operating locations may change.
+Transport may change.
+Storage may change.
+The principles below do not.
+
+## Immutable principles
+
+### 1. Evidence first
+
+- Prefer verifiable facts, code behavior, logs, and documented rules.
+- Separate facts from inference.
+- Mark any guess explicitly as `【推測】` or `【推論】`.
+
+### 2. Responsibility separation
+
+- Keep execution, transport, staging, knowledge, and audit concerns separate.
+- Do not collapse log storage and KB into the same layer.
+- Do not force every concern into the runtime host.
+
+### 3. Stage before normalize
+
+- Use staging layers when the runtime host is capacity-limited.
+- Normalize staged data into KB only after the evidence layer exists.
+- Do not skip the evidence step.
+
+### 4. Context continuity
+
+- Reconfirm prior decisions before continuing work.
+- Summarize at phase boundaries.
+- Keep current assumptions visible.
+
+### 5. Feasibility first
+
+- Show the current design before implementation work.
+- Explain why the plan can work with the present constraints.
+- Ask for approval when scope changes.
+
+### 6. 5W1H clarity
+
+- Who
+- What
+- When
+- Where
+- Why
+- How
+
+### 7. Minimal change, maximal reuse
+
+- Change only what is necessary.
+- Keep reusable units separable.
+- Avoid one-off structures unless they are explicitly temporary.
+
+## Stable interpretation
+
+These principles apply whether the project is called KAGURA, TGS, KB, or something else.
+The brand name can change.
+The operational philosophy does not.
+

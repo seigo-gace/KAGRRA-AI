@@ -29,3 +29,4 @@ Past work can be searched, reviewed, and reused instead of being forgotten.
 - KB is a knowledge and retrieval layer.
 - They should be designed separately even if they share some data.
 - Logs preserve events; KB preserves reusable meaning.
+- `TGS` is the staging point between `VPS` execution and `KB` normalization.

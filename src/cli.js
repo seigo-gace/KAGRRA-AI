@@ -7,6 +7,19 @@ function runtime() {
   return new KagrraRuntime(createContext(), process.env.GEMINI_API_KEY);
 }
 
+function printHelp() {
+  console.log(`Usage: kagrra <command> [task...]
+
+Commands:
+  doctor        Show runtime health and workspace diagnostics
+  route         Route the given task
+  run           Execute the given task
+  evidence      Print the evidence ledger tail
+  dashboard     Start the local dashboard
+  help          Show this help text
+`);
+}
+
 const [cmd, ...rest] = process.argv.slice(2);
 
 try {
@@ -21,8 +34,11 @@ try {
   } else if (cmd === "dashboard") {
     const port = Number(process.env.KAGRRA_DASHBOARD_PORT || 8787);
     await startDashboard(port);
+  } else if (cmd === "help" || cmd === "--help" || cmd === "-h") {
+    printHelp();
   } else {
     console.error(`Unknown command: ${cmd}`);
+    printHelp();
     process.exit(1);
   }
 } catch (err) {
