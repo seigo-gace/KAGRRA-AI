@@ -95,6 +95,15 @@ The phase roadmap lives in `docs/roadmap/`.
 - `docs/roadmap/phase-6-runtime-foundation.md`
 - `docs/roadmap/phase-7-core.md`
 
+## Operating rules
+
+This API server follows the root charter:
+
+- [`docs/operations/kagrra-charter.md`](../docs/operations/kagrra-charter.md)
+- [`docs/operations/deployment-checklist.md`](../docs/operations/deployment-checklist.md)
+
+When runtime behavior or local data pressure conflicts with ClaudeData compatibility, preserve the ClaudeData-aligned path unless an explicit divergence is approved.
+
 ## Notes
 
 `HOMURA_SEARCH_PROVIDER=google_search` uses Gemini built-in Google Search grounding.

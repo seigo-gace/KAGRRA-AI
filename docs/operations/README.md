@@ -7,6 +7,7 @@ This folder defines the current operational rules for KAGURA.
 1. `kagrra-charter.md`
 2. `operating-principles.md`
 3. `transport-and-storage.md`
+4. `deployment-checklist.md`
 
 ## Principle
 

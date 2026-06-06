@@ -14,6 +14,7 @@ KAGURA は、Gemini Flash を身体として使いながら、ClaudeData・Skill
 6. `docs/claude-data/CLAUDE_DATA_COMPATIBILITY.md`
 7. `docs/operations/README.md`
 8. `docs/roadmap/README.md`
+9. `docs/operations/deployment-checklist.md`
 
 この順番で読むと、開発思想・現在地・将来像がぶれにくくなります。
 

@@ -47,6 +47,7 @@
 │   │
 │   └───operations
 │           README.md
+│           deployment-checklist.md
 │           kagrra-charter.md
 │           operating-principles.md
 │           transport-and-storage.md

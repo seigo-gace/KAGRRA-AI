@@ -6,7 +6,8 @@ DEVELOPMENT_GUIDELINE_AND_RULEBOOK.md
 2. docs/operations/README.md
 3. docs/roadmap/README.md
 4. docs/architecture/RUNTIME_ARCHITECTURE.md
-5. docs/claude-data/CLAUDE_DATA_COMPATIBILITY.md
+5. docs/operations/deployment-checklist.md
+6. docs/claude-data/CLAUDE_DATA_COMPATIBILITY.md
 
 用途:
 KAGURA の現在地、開発方針、将来ロードマップを開発開始前にそろえるための入口です。

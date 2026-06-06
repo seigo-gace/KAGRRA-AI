@@ -1,5 +1,10 @@
 # VPS Deployment
 
+Before deployment, confirm the root checklist:
+
+- `docs/operations/kagrra-charter.md`
+- `docs/operations/deployment-checklist.md`
+
 ## 1. Upload
 
 Place this directory on the VPS:
